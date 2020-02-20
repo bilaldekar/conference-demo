@@ -1,6 +1,6 @@
-package com.pluralsight.conferencedemo.repositories;
+package com.conference.repositories;
 
-import com.pluralsight.conferencedemo.models.Speaker;
+import com.conference.models.Speaker;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SpeakerRepository extends JpaRepository<Speaker, Long> {
